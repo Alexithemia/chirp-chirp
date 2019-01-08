@@ -20,7 +20,6 @@ function countLetters(counter, sample_text) {
   if (sample_text.length === 0) {
     return counter;
   }
-  console.log('hit')
   //creates a key to test of the first character converted to lowercase
   const key = sample_text[0].toLowerCase();
 
